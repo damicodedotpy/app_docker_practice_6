@@ -1,0 +1,23 @@
+{
+  "name": "app_docker_practice_6",
+  "version": "1.0.0",
+  "description": "CRUD using NodeJS, GraphQL, MongoDB and Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "damicode",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "graphql": "^16.8.1",
+    "mongoose": "^8.1.1",
+    "mongoose-paginate-v2": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
